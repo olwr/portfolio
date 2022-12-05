@@ -1,0 +1,21 @@
+.formacao,
+.experiencias,
+.skills {
+    display: flex;
+    width: 23rem;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 3rem;
+    column-gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    flex: 0 0 100%;
+    padding: 2rem;
+    scroll-snap-align: start;
+    border-radius: 30px 15px;
+    background: #a0c0e0;
+    font-family: 'Zen Dots', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,114 @@
+.container {
+    min-width: min-content;
+    min-height: min-content;
+}
+
+.container,
+.navegacao,
+.menu-mobile {
+    background: var(--fundo-escuro);
+    background: -moz-linear-gradient(90deg, rgba(0, 46, 75, 1) 0%, rgba(0, 80, 106, 1) 50%, rgba(12, 99, 128, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 46, 75, 1) 0%, rgba(0, 80, 106, 1) 50%, rgba(12, 99, 128, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 46, 75, 1) 0%, rgba(0, 80, 106, 1) 50%, rgba(12, 99, 128, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#002e4b", endColorstr="#0c6380", GradientType=1);
+
+}
+
+.container h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.perfil {
+    margin-left: 3rem;
+    margin-top: 4.3rem;
+    margin-bottom: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.perfil-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.nome {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.ocupacao {
+    margin-bottom: 0.5rem;
+    color: var(--fundo-claro);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.contato p{
+    display: inline-block;
+}
+
+.contato i {
+    color: var(--fundo-claro);
+}
+
+.img-perfil {
+    width: 195px;
+    border: solid 7px;
+    border-radius: 75px 15px;
+}
+
+.perfil-icons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.9rem;
+    justify-content: center;
+    list-style: none;
+}
+
+.perfil-icons a{
+    text-decoration: none;
+    color: var(--fundo-claro);
+    cursor: pointer;
+}
+
+.conteudo-principal {
+    background: var(--fundo-claro);
+    padding: 3rem 2.5rem;
+    text-align: center;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+    margin: 1.5rem 2rem;
+}
+
+.about-me-img {
+    width: 450px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.about-me-texto {
+    align-self: center;
+}
+
+.interesse-icon {
+    height: 3rem;
+}
+
+.interesse-icon:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+a .interesse-icon {
+    text-decoration: none;
+    cursor: pointer;
+}

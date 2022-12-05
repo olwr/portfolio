@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Zen+Dots&display=swap');
+
+:root {
+    font-family: 'Rubik', monospace;
+    --fundo-escuro: rgb(0, 46, 75);
+    --fundo-claro: #EAE0D5;
+    --fonte-escuro: #ffd3a9;
+    --fonte-claro: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+:root::-webkit-scrollbar {
+    width: 1rem;
+}
+
+:root::-webkit-scrollbar-track {
+    background: #f2ece6;
+}
+
+:root::-webkit-scrollbar-thumb {
+    background: #cac5c1;
+    border-radius: 5px;
+}
