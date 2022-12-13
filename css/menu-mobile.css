@@ -12,8 +12,58 @@
     display: none;
 }
 
+.menu-icon {
+    display: none;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    transition: 0.3s opacity;
+    width: 32px;
+    height: 40px;
+}
+
+.exit-icon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    transition: 0.3s opacity;
+    width: 32px;
+    height: 40px;
+}
+
+.nav-mobile {
+    position: relative;
+}
+
+.nav-mobile ul {
+    position: absolute;
+}
+
+.nav-mobile li {
+    margin-bottom: 16px;
+}
+
+.nav-mobile li::before {
+    content: "•";
+    color: var(--fonte-claro);
+}
+
+.nav-mobile a {
+    color: var(--fonte-claro);
+    text-decoration: none;
+    transition: 0.3s color;
+    margin-left: 0.7rem;
+}
+
+.nav-mobile a:hover {
+    color: var(--fonte-escuro);
+}
+
+
 @media screen and (max-width:1040px) {
-    .icone-menu {
+    .menu-icon {
         display: inherit;
     }
 }

@@ -11,6 +11,8 @@
     scroll-behavior: smooth;
 }
 
+/* SCROLLBAR */
+
 :root::-webkit-scrollbar {
     width: 1rem;
 }
