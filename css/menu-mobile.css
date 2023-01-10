@@ -3,7 +3,7 @@
     height: 400px;
     position: fixed;
     top: 8px;
-    right: 0s;
+    right: 0px;
     border: 10px 0 0 10px;
     z-index: 1;
 }
@@ -16,8 +16,8 @@
     display: none;
     position: absolute;
     top: 16px;
-    right: 16px;
-    z-index: 1;
+    right: 10px;
+    /* z-index: 1; */
     transition: 0.3s opacity;
     width: 32px;
     height: 40px;
